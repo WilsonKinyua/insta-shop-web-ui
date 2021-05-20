@@ -206,6 +206,10 @@ button:focus {
     margin-bottom: 30px;
 }
 
+.star {
+  height: 20px;
+}
+
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
