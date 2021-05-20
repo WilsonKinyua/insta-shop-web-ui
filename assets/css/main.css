@@ -156,13 +156,28 @@ button:focus {
     height: ;
 } */
 .cat-p {
-    font-weight: 600;
+    color: rgb(0, 0, 0) !important;
+    font-weight: 700;
     text-align: center !important;
+    font-size: 12px !important;
+    
 }
 .cat-img {
     text-align: center !important;
     margin: 0px !important;
 }
+
+.cat-img img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.cat-h {
+  text-align: center;
+  margin: 20px;
+}
+
 .cat .col-xl-2 {
     /* border: 1px solid rgb(206, 206, 206); */
     padding: 20px;
@@ -171,9 +186,10 @@ button:focus {
 .cat .col-xl-2:hover {
     /* transform: scale(1.1); */
     /* border: 1px solid rgb(206, 206, 206); */
-    box-shadow: 4px 10px 9px -11px rgba(0,0,0,1);
-    -webkit-box-shadow: 4px 10px 9px -11px rgba(0,0,0,1);
-    -moz-box-shadow: 4px 10px 9px -11px rgba(0,0,0,1);
+    box-shadow: -4px 2px 21px 2px rgba(0,0,0,0.34);
+    -webkit-box-shadow: -4px 2px 21px 2px rgba(0,0,0,0.34);
+    -moz-box-shadow: -4px 2px 21px 2px rgba(0,0,0,0.34);
+    border-radius: 12px;
 }
 
 .cat-title {
@@ -183,6 +199,7 @@ button:focus {
 
 
 .cat {
+    /* background-color: #befce3; */
     background-color: var(--white);
     margin: 2px;
     border-radius: 10px;
@@ -2761,7 +2778,7 @@ select {
   padding: 30px;
 }
 .details-name {
-  font-size: 26px;
+  font-size: 20px;
   line-height: 34px;
   margin-bottom: 8px;
 }

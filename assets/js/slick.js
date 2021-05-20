@@ -50,8 +50,8 @@ $(".category-slider").slick({
     arrows: !0,
     fade: !0,
     asNavFor: ".thumb-slider",
-    prevArrow: '<i class="icofont-arrow-right dandik"></i>',
-    nextArrow: '<i class="icofont-arrow-left bamdik"></i>',
+    prevArrow: false,
+    nextArrow: false,
     responsive: [
       {
         breakpoint: 576,
