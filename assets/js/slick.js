@@ -60,25 +60,25 @@ $(".category-slider").slick({
     ],
   }),
   $(".thumb-slider").slick({
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     asNavFor: ".preview-slider",
     dots: !1,
     arrows: !1,
-    centerMode: !0,
+    centerMode: !4,
     focusOnSelect: !0,
-    responsive: [
-      { breakpoint: 992, settings: { slidesToShow: 3, slidesToScroll: 1 } },
-      { breakpoint: 768, settings: { slidesToShow: 3, slidesToScroll: 1 } },
-      {
-        breakpoint: 576,
-        settings: { slidesToShow: 3, slidesToScroll: 1, arrows: !1 },
-      },
-      {
-        breakpoint: 400,
-        settings: { slidesToShow: 2, slidesToScroll: 1, arrows: !1 },
-      },
-    ],
+    // responsive: [
+    //   { breakpoint: 992, settings: { slidesToShow: 3, slidesToScroll: 1 } },
+    //   { breakpoint: 768, settings: { slidesToShow: 3, slidesToScroll: 1 } },
+    //   {
+    //     breakpoint: 576,
+    //     settings: { slidesToShow: 3, slidesToScroll: 1, arrows: !1 },
+    //   },
+    //   {
+    //     breakpoint: 400,
+    //     settings: { slidesToShow: 2, slidesToScroll: 1, arrows: !1 },
+    //   },
+    // ],
   }),
   $(".modal").on("shown.bs.modal", function (s) {
     $(".preview-slider, .thumb-slider").slick("setPosition"),

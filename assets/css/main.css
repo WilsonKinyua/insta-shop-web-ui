@@ -3078,16 +3078,16 @@ select {
   border-radius: 8px;
 }
 .thumb-slider li {
-  margin: 0px 10px;
+  margin: 0px 3px;
   cursor: pointer;
 }
 .thumb-slider li img {
-  width: 100%;
-  border-radius: 8px;
+  width: 80%;
+  border-radius: 10px;
   border: 1px solid var(--border);
 }
 .thumb-slider .slick-center img {
-  border: 1px solid var(--primary);
+  border: 1px solid black;
 }
 @media (max-width: 500px) {
   .product-gallery,
